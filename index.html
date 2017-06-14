@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario Matricula</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+<h1>Formulario de Registro</h1>
+  <div id="parrafo">
+   <p>Bienvenido al formulario de registo para el año lectivo 2017. Recuerde proveer todos los datos necesarios o su solicitud no será procesada</p>
+  </div>
+  <h2>Datos</h2>
+    <div id="form">
+      <form>
+        <p>
+        <label for="Nombres">Nombres: </label><input type="text" name="nombre" placeholder="Introduzca su nombre aquí">
+        <label for="Apellidos">Apellidos: </label><input type="text" name="apellido" placeholder="Introduzca su apellido aquí"><br>
+        <label for="Email:">Email: </label><input type="text" name="email" placeholder="Introduzca su email aquí">
+        <label for="Facebook">Facebook: </label><input type="text" name="facebook" placeholder="Link de su perfil"><br>
+        <label>Género:</label>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="femenino"> Femenino<br>
+        <label>Estudios:</label>
+        <input type="checkbox" name="estudios" value="bachiller"> Bachiller
+        <input type="checkbox" name="estudios" value="profesional"> Profesional
+        <input type="checkbox" name="estudios" value="tecnico"> Técnico
+        <input type="checkbox" name="estudios" value="otro"> Otro<br>
+        <input class="enviar" type="reset" value="Cancelar">
+        <input class="enviar" type="submit" value="Enviar">
+      </p>
+      </form>
+    </div>
+</body>
+</html>
