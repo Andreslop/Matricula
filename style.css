@@ -1,5 +1,4 @@
 body {
-    margin:50px 0;
     padding:0;
     text-align:center;
 }
@@ -7,7 +6,6 @@ div{
     margin: auto;
     text-align:center;
 }
-
 #parrafo {
   border: solid 1px #353e4c;
   border-radius: 10px;
@@ -28,4 +26,8 @@ input{
 }
 label{
   font-weight: bold;
+}
+#inlineinput {
+  display: flex;
+  width: 30%;
 }

@@ -16,7 +16,7 @@
         <p>
         <label for="Nombres">Nombres: </label><input type="text" name="nombre" placeholder="Introduzca su nombre aquí">
         <label for="Apellidos">Apellidos: </label><input type="text" name="apellido" placeholder="Introduzca su apellido aquí"><br>
-        <label for="Email:">Email: </label><input type="text" name="email" placeholder="Introduzca su email aquí">
+        <label for="Email:">Email: </label><input type="email" name="email" placeholder="Introduzca su email aquí">
         <label for="Facebook">Facebook: </label><input type="text" name="facebook" placeholder="Link de su perfil"><br>
         <label>Género:</label>
         <input type="radio" name="genero" value="masculino"> Masculino
@@ -30,6 +30,32 @@
         <input class="enviar" type="submit" value="Enviar">
       </p>
       </form>
+    </div>
+    <h2>Detalles</h2>
+    <div id="form">
+      <p>
+        <div id="inlineinput">
+      <label for="Peticion">Petición: </label>
+      <select name="peticion" id="peticion">
+        <option value="seleccione">Seleccione...</option>
+        <option value="ingreso">Ingreso</option>
+        <option value="reintrego">Reintegro</option>
+        <option value="retiro">Retiro</option>
+        <option value="otros">Otros</option>
+      </select>
+    </div>
+    <div id="inlineinput">
+      <label for="fecha">Fecha: </label><input type="date" name="fecha">
+    </div>
+    </p><br>
+    <label for="observaciones">Observaciones: </label><br>
+    <textarea name="observaciones" rows="8" cols="80" placeholder="Comentenos su caso aquí"></textarea><br>
+    <p>
+    <label for="website">Pagina Web: </label>
+    <input type="url" placeholder="Website">
+    <label for="radicado"># Radicado: </label>
+    <input type="number" placeholder="Número de radicado">
+  </p>
     </div>
 </body>
 </html>
