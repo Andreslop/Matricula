@@ -27,7 +27,3 @@ input{
 label{
   font-weight: bold;
 }
-#inlineinput {
-  display: flex;
-  width: 30%;
-}
